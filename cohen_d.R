@@ -11,10 +11,11 @@ test[test=='stage i'] <- 99;test
 fix(test)
 
 
-stage1_data <- filter(test,AUY=='Á½');stage1_data
+stage1_data <- filter(test,AUY=='stage1')
+stage1_data
 stage1_data <- as.matrix(stage1_data)
 stage1_data <- stage1_data[,-1];stage1_data
-stage2_data <- filter(test,AUY=='Ò»')
+stage2_data <- filter(test,AUY=='stage2')
 mean(stage1_data[1,])
 mean1 <- rep(c(1),times=3)
 for(i in 1:nrow(stage1_data)){
