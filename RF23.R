@@ -5,7 +5,7 @@ library("dplyr")
 
 #Gene
 Gene <- t(Gene_1000)
-write.xlsx(Gene,"C:/Users/Dell/Desktop/??/Gene1000zhuanzhi.xlsx")
+write.xlsx(Gene,"C:/Users/Dell/Desktop/Rdata/Gene1000zhuanzhi.xlsx")
 Gene <- Gene1000
 Gene <- read.xlsx("Gene1000.xlsx")
 #
